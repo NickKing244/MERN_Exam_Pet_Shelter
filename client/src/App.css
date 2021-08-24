@@ -1,0 +1,106 @@
+.App {
+  text-align: left;
+  margin: 20px;
+}
+
+body {
+  background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F09%2F02%2Fdogs-and-eggs-2000.jpg);
+  background-size: auto;
+  color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.table {
+  border: 2px solid black;
+  width: 650px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-border {
+  border: 2px solid black;
+  width: 900px;
+}
+
+.form-space {
+  margin: 20px;
+}
+
+.button {
+  color: white;
+  background: blue;
+  width: 200px;
+  height: 40px;
+  margin-left: 180px;
+}
+
+#btn-adopt {
+  color: white;
+  background: red;
+  width: 150px;
+  height: 30px;
+}
+
+#details-border {
+  border: 3px solid black;
+}
+
+.pet-details {
+  margin-left: 50px;
+  color: darkgreen;
+}
+
+#like-btn {
+  color: white;
+  background: green;
+  width: 130px;
+  height: 30px;
+  margin-right: 30px;
+}
+
+#like-flex {
+  display: flex;
+  justify-content: flex-start;
+}
